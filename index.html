@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pyscript Number Guessing Game</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.3.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2026.3.1/core.js"></script>
+</head>
+<body>
+    <!-- Loading screen -->
+    <div id="Loading_Screen">
+        <div>Pyscript is loading... Please wait.</div>
+        <span class="Spinner"></span>
+    </div>
+    
+    <h1>Pyscript Number Guessing Game</h1>
+    <h3>I am thinking of a number from 1 to 10. Guess my number:</h3>
+    <input 
+        type="number"
+        placeholder="Enter your guess"
+        id="user_num"
+        autocomplete="off"
+    >
+    <button id="guess_button">Guess</button>
+    <p id="output"></p>
+    <script
+        type="py"
+        src="main.py"
+    ></script>
+</body>
+</html>
