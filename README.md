@@ -1,5 +1,7 @@
 # Pyscript Number Guessing Game
 
+__Link:__ https://alex-m-2013.github.io/Pyscript-Number-Guessing-Game/
+
 A simple number guessing game made in HTML, CSS and Python3 (Using [pyscript](https://pyscript.net/))
 
 __Note:__ If you want to run the code yourself you will need to start a local server (You can't just double-click the HTML file). 
